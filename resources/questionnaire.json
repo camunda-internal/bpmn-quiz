@@ -1,0 +1,209 @@
+{
+   "name":"Are you ready to conquer the world of BPMN 2.0?",
+   "intro":"",
+
+   "questions":[
+      {
+         "type":"single",
+         "text":"Ok let's start off with an easy one, what does BPMN 2.0 stand for?",
+         "answers":[
+            "Business Process Management Notation 2.0",
+            "Business Process Modeling Notation 2.0",
+            "Business Process Mastering Notation 2.0",
+            "Business Process Model and Notation 2.0"
+         ],
+         "rightAnswer":[
+            "Business Process Model and Notation 2.0"
+         ]
+      },
+      {
+         "type":"single",
+         "text":"So far so good. What is the name of the institution that is responsible for BPMN?",
+         "answers":[
+            "OASIS",
+            "OMG",
+            "ISO",
+            "UML"
+         ],
+         "rightAnswer":[
+            "OMG"
+         ]
+      },
+      {
+         "type":"multiple",
+         "text":"Which tasks can be executed by a process engine? (two correct answers)",
+         "answers":[
+            "The administration of business process models",
+            "The execution of technical process models",
+            "The measurement of (technical) performance indicators",
+            "The introduction of a service-oriented architecture"
+         ],
+         "rightAnswers":[
+            "The execution of technical process models",
+            "The measurement of (technical) performance indicators"
+         ]
+      },
+      {
+         "type":"interactive",
+         "text":"Which of these should not be used to merge multiple sequence flows?",
+         "diagram":{
+            "url":"../resources/bpmn/multipleSequence.bpmn", 
+            "interactive":true,
+            "rightAnswers":[
+               "EventBasedGateway_0i8vw7b"
+            ],
+            "noSelect":{
+               "elements":[
+               ],
+               "types":[
+                  "label",
+                  "participant"
+               ]
+            }
+         }
+      },
+      {
+         "type":"interactive",
+         "text":"Which of these symbols can follow from an event based gateway? (five correct answers)",
+         "diagram":{
+            "url":"../resources/bpmn/event_based_gateway_follow.bpmn", 
+            "interactive":true,
+            "rightAnswers":[
+               "IntermediateCatchEvent_0oj3eh2",
+               "IntermediateCatchEvent_0jiw2i6",
+               "ReceiveTask_1s2q7ah",
+               "IntermediateCatchEvent_15ssfsh",
+               "IntermediateCatchEvent_1dtbfof"
+            ],
+            "noSelect":{
+               "elements":[
+               ],
+               "types":[
+                  "label",
+                  "participant"
+               ]
+            }
+         }
+      },    
+      {
+         "type":"single",
+         "text":"What is the most important improvement of BPMN 2.0? ",
+         "answers":[
+            "The introduction of color semantics",
+            "The addition of organization charts",
+            "The possibility to execute directly through an engine",
+            "The standardized mapping on eEPK"
+         ],
+         "rightAnswer":[
+            "The possibility to execute directly through an engine"
+         ]
+      },
+      {
+         "type":"single",
+         "text":"What is a process instance?",
+         "answers":[
+            "A process participant",
+            "A concrete process run",
+            "A person familiar with a process",
+            "\"Process instance\" is just a different word for \"Process model\""
+         ],
+         "rightAnswer":[
+            "A concrete process run"
+         ]
+      },
+      {
+         "type":"interactive",
+         "text":"Pick the inclusive gateway",
+         "diagram":{
+            "url":"../resources/bpmn/friday_night.bpmn", 
+            "interactive":true,
+            "rightAnswers":[
+               "InclusiveGateway_1dj2xbg",
+               "InclusiveGateway_0vkbpu8"
+            ],
+            "noSelect":{
+               "elements":[
+               ],
+               "types":[
+                  "label",
+                  "participant"
+               ]
+            }
+         }
+      },
+      {
+         "type":"interactive",
+         "text":"Ok let's be honest, you probably picked Netflix. But can you figure out what went wrong here? (two mistakes snuck in)",
+         "diagram":{
+            "url":"../resources/bpmn/netflix.bpmn", 
+            "interactive":true,
+            "rightAnswers":[
+               "ExclusiveGateway_02j5o7a",
+               "ExclusiveGateway_1csq162"
+            ],
+            "noSelect":{
+               "elements":[
+               ],
+               "types":[
+                  "label",
+                  "participant"
+               ]
+            }
+         }
+      },      
+      {
+         "type":"single",
+         "text":"Alright, let's toughen it up a bit! Which events don’t exist in BPMN?",
+         "answers":[
+            "A throwing signal intermediate event",
+            "A conditional start event",
+            "A catching intermediate escalation event",
+            "A throwing timer end event"
+         ],
+         "rightAnswer":[
+            "A throwing signal intermediate event"
+         ]
+      },
+      {
+         "type":"single",
+         "text":"Can you spot the combination of activity makers NOT allowed in BPMN?",
+         "answers":[
+            "Multi instance task",
+            "Loop Sub-Process",
+            "Compensation Adhoc Sub-Process",
+            "Loop multi instance task"
+         ],
+         "rightAnswer":[
+            "Loop multi instance task"
+         ]
+      },
+      {
+         "type":"single",
+         "text":"What type of communication can be modeled with a collaboration diagram?",
+         "answers":[
+            "Communication within a pool",
+            "Communication between lanes",
+            "Collaboration diagrams don't address communication at all",
+            "Synchronous and asynchronous communication between pools"
+         ],
+         "rightAnswer":[
+            "Synchronous and asynchronous communication between pools"
+         ]
+      },
+      {
+         "type":"single",
+         "text":"Which of these is not an OMG standard?",
+         "answers":[
+            "DMN",
+            "UML",
+            "BPEL",
+            "CMMN"
+         ],
+         "rightAnswer":[
+            "BPEL"
+         ]
+      }            
+      
+   ]
+}
+

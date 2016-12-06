@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="1.4.0">
+  <bpmn:process id="Process_13q2qb5" isExecutable="false">
+    <bpmn:parallelGateway id="ParallelGateway_1ye302x" />
+    <bpmn:eventBasedGateway id="EventBasedGateway_0i8vw7b" />
+    <bpmn:inclusiveGateway id="InclusiveGateway_17mbxhd" />
+    <bpmn:exclusiveGateway id="ExclusiveGateway_0201wso" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_13q2qb5">
+      <bpmndi:BPMNShape id="ParallelGateway_1ye302x_di" bpmnElement="ParallelGateway_1ye302x">
+        <dc:Bounds x="49" y="57" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="74" y="107" width="0" height="0" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EventBasedGateway_0i8vw7b_di" bpmnElement="EventBasedGateway_0i8vw7b">
+        <dc:Bounds x="157" y="57" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="182" y="107" width="0" height="0" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="InclusiveGateway_17mbxhd_di" bpmnElement="InclusiveGateway_17mbxhd">
+        <dc:Bounds x="384" y="57" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="409" y="107" width="0" height="0" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ExclusiveGateway_0201wso_di" bpmnElement="ExclusiveGateway_0201wso" isMarkerVisible="true">
+        <dc:Bounds x="271" y="57" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="296" y="107" width="0" height="0" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
