@@ -1,5 +1,5 @@
 {
-  "name": "bpmn-questionnaire-example",
+  "name": "bpmn quiz",
   "version": "0.1.0",
   "description": "Example project that makes use of the bpmn-questionnaire library",
   "main": "index.js",

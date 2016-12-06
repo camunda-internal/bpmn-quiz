@@ -1,4 +1,4 @@
-# bpmn-questionnaire Example
+# bpmn quiz
 
 ## About
 
