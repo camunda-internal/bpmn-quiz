@@ -8188,7 +8188,7 @@ Intro.prototype.render = function(state) {
               href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conqueringBPMN&src=typd',
           },
               h('p','#conqueringBPMN.')),
-        h('img.img-responsive', { src: 'http://placehold.it/1025x400'})  
+        h('img.img-responsive', { src: 'http://placekitten.com/g/1025/400'})  
       ])
     );
 
@@ -8310,7 +8310,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
                 
           ])
         ); 
@@ -8345,7 +8345,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
                 
           ])
         );
@@ -8377,7 +8377,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
                 
           ])
         ); 
@@ -8409,7 +8409,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
                 
           ])
         );
@@ -8441,7 +8441,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
                 
           ])
         ); 
