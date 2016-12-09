@@ -8188,7 +8188,7 @@ Intro.prototype.render = function(state) {
               href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conqueringBPMN&src=typd',
           },
               h('p','#conqueringBPMN.')),
-        h('img.img-responsive', { src: 'https://i.ytimg.com/vi/wC1jHHF_Wjo/maxresdefault.jpg'})  
+        h('img.img-responsive', { src: 'http://placehold.it/1025x400'})  
       ])
     );
 
@@ -8310,7 +8310,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://2.bp.blogspot.com/-rMlGkyDLRfg/VDS-W7fP4pI/AAAAAAABOtU/ml3518RhkUE/s1600/Mixamo%2Band%2BAdobe%2BBring%2B3D%2BCharacter%2BAnimation%2Bto%2BPhotoshop%2BCC.jpg'})
+              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
                 
           ])
         ); 
@@ -8345,7 +8345,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://2.bp.blogspot.com/-rMlGkyDLRfg/VDS-W7fP4pI/AAAAAAABOtU/ml3518RhkUE/s1600/Mixamo%2Band%2BAdobe%2BBring%2B3D%2BCharacter%2BAnimation%2Bto%2BPhotoshop%2BCC.jpg'})
+              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
                 
           ])
         );
@@ -8377,7 +8377,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://2.bp.blogspot.com/-rMlGkyDLRfg/VDS-W7fP4pI/AAAAAAABOtU/ml3518RhkUE/s1600/Mixamo%2Band%2BAdobe%2BBring%2B3D%2BCharacter%2BAnimation%2Bto%2BPhotoshop%2BCC.jpg'})
+              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
                 
           ])
         ); 
@@ -8409,7 +8409,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://2.bp.blogspot.com/-rMlGkyDLRfg/VDS-W7fP4pI/AAAAAAABOtU/ml3518RhkUE/s1600/Mixamo%2Band%2BAdobe%2BBring%2B3D%2BCharacter%2BAnimation%2Bto%2BPhotoshop%2BCC.jpg'})
+              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
                 
           ])
         );
@@ -8441,7 +8441,7 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://2.bp.blogspot.com/-rMlGkyDLRfg/VDS-W7fP4pI/AAAAAAABOtU/ml3518RhkUE/s1600/Mixamo%2Band%2BAdobe%2BBring%2B3D%2BCharacter%2BAnimation%2Bto%2BPhotoshop%2BCC.jpg'})
+              h('img.img-responsive', { src: 'http://placehold.it/1025x600'})
                 
           ])
         ); 
