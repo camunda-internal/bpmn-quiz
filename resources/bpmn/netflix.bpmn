@@ -26,11 +26,6 @@
       <bpmn:outgoing>SequenceFlow_1t34n72</bpmn:outgoing>
     </bpmn:task>
     <bpmn:sequenceFlow id="SequenceFlow_0s014hw" name="action" sourceRef="ExclusiveGateway_1figej1" targetRef="Task_1qppxud" />
-    <bpmn:exclusiveGateway id="ExclusiveGateway_02j5o7a">
-      <bpmn:incoming>SequenceFlow_05ant7a</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_1t34n72</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_148l4cz</bpmn:outgoing>
-    </bpmn:exclusiveGateway>
     <bpmn:sequenceFlow id="SequenceFlow_05ant7a" sourceRef="Task_0wa9md5" targetRef="ExclusiveGateway_02j5o7a" />
     <bpmn:sequenceFlow id="SequenceFlow_1t34n72" sourceRef="Task_1qppxud" targetRef="ExclusiveGateway_02j5o7a" />
     <bpmn:endEvent id="EndEvent_0kq11wp" name="Fall asleep on the couch">
@@ -54,6 +49,11 @@
       <bpmn:outgoing>SequenceFlow_0dnho2d</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0sq4st8</bpmn:outgoing>
     </bpmn:exclusiveGateway>
+    <bpmn:parallelGateway id="ExclusiveGateway_02j5o7a">
+      <bpmn:incoming>SequenceFlow_05ant7a</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1t34n72</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_148l4cz</bpmn:outgoing>
+    </bpmn:parallelGateway>
     <bpmn:textAnnotation id="TextAnnotation_1ohy36j">    <bpmn:text>15 min</bpmn:text>
 </bpmn:textAnnotation>
     <bpmn:association id="Association_0zyg8yp" sourceRef="Task_0mmxyzz" targetRef="TextAnnotation_1ohy36j" />
@@ -159,12 +159,6 @@
         <di:waypoint xsi:type="dc:Point" x="756" y="305" />
         <di:waypoint xsi:type="dc:Point" x="780" y="317" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="ExclusiveGateway_02j5o7a_di" bpmnElement="ExclusiveGateway_02j5o7a" isMarkerVisible="true">
-        <dc:Bounds x="904.2708894878706" y="95" width="50" height="50" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="930" y="145" width="0" height="0" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_05ant7a_di" bpmnElement="SequenceFlow_05ant7a">
         <di:waypoint xsi:type="dc:Point" x="820" y="120" />
         <di:waypoint xsi:type="dc:Point" x="904" y="120" />
@@ -224,6 +218,12 @@
         <dc:Bounds x="408" y="95" width="50" height="50" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="399" y="50" width="67" height="25" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ParallelGateway_12mx3xt_di" bpmnElement="ExclusiveGateway_02j5o7a">
+        <dc:Bounds x="904" y="95" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="930" y="145" width="0" height="0" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>

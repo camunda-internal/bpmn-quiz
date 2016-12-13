@@ -131,13 +131,12 @@
       },
       {
          "type":"interactive",
-         "text":"Ok let's be honest, you probably picked Netflix. But can you figure out what went wrong here? (two mistakes snuck in)",
+         "text":"Ok let's be honest, you probably picked Netflix. But can you figure out what went wrong here?",
          "diagram":{
             "url":"../resources/bpmn/netflix.bpmn", 
             "interactive":true,
             "rightAnswers":[
-               "ExclusiveGateway_02j5o7a",
-               "ExclusiveGateway_1csq162"
+               "ExclusiveGateway_02j5o7a"
             ],
             "noSelect":{
                "elements":[
