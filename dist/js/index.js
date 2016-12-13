@@ -8310,7 +8310,11 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+                style: {
+                  marginTop:'10'
+                }
+              })
                 
           ])
         ); 
@@ -8345,7 +8349,11 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+                style: {
+                  marginTop:'10'
+                }
+            })
                 
           ])
         );
@@ -8377,7 +8385,11 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+                style: {
+                  marginTop:'10'
+                }
+            })
                 
           ])
         ); 
@@ -8409,7 +8421,11 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+                style: {
+                  marginTop:'10'
+                }
+            })
                 
           ])
         );
@@ -8441,7 +8457,11 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600'})
+              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+                style: {
+                  marginTop:'10'
+                }
+            })
                 
           ])
         ); 
