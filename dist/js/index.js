@@ -118,6 +118,7 @@ var difference        = require('lodash/difference'),
 // bpmn-questionnaire
 var BpmnQuestionnaire = require('bpmn-questionnaire');
 
+
 var multiple = BpmnQuestionnaire.createType({
   renderQuestion: function() {
     var that = this;
@@ -8292,7 +8293,7 @@ Results.prototype.render = function(state) {
                  ' right!',
               t(' But who could be angry at that face. Good news: there is plenty of '), 
               h('a', {
-                href: 'https://camunda.com/bpm/training/'
+                href: 'https://camunda.com/bpmn/training/'
               }, t('training material')),
               h('br'),
               h('a.twitter-share-button', {
@@ -8331,7 +8332,7 @@ Results.prototype.render = function(state) {
                  ' right!',
               t(' Put the sandwich down, buckle your seatbelt and start brushing up on your BPMN 2.0 knowledge. To conquer the world of BPMN you need to '),
               h('a', {
-                href: 'https://camunda.com/bpm/training/'
+                href: 'https://camunda.com/bpmn/training/'
               }, t('train.')),
               h('br'),
               h('a.twitter-share-button', {

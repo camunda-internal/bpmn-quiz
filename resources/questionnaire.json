@@ -30,17 +30,15 @@
          ]
       },
       {
-         "type":"multiple",
-         "text":"Which tasks can be executed by a process engine? (two correct answers)",
+         "type":"single",
+         "text":"What is the main task executed by a process engine?",
          "answers":[
             "The administration of business process models",
             "The execution of technical process models",
-            "The measurement of (technical) performance indicators",
             "The introduction of a service-oriented architecture"
          ],
          "rightAnswers":[
-            "The execution of technical process models",
-            "The measurement of (technical) performance indicators"
+            "The execution of technical process models"
          ]
       },
       {
@@ -158,10 +156,10 @@
             "A throwing signal intermediate event",
             "A conditional start event",
             "A catching intermediate escalation event",
-            "A timer intermediate catch event"
+            "A timer intermediate throw event"
          ],
          "rightAnswer":[
-            "A throwing signal intermediate event"
+            "A timer intermediate throw event"
          ]
       },
       {
