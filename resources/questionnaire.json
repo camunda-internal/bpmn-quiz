@@ -113,7 +113,7 @@
       },
       {
          "type":"interactive",
-         "text":"Pick the inclusive gateway",
+         "text":"Pick the inclusive gateways (two)",
          "diagram":{
             "url":"../resources/bpmn/friday_night.bpmn", 
             "interactive":true,
@@ -158,7 +158,7 @@
             "A throwing signal intermediate event",
             "A conditional start event",
             "A catching intermediate escalation event",
-            "A throwing timer end event"
+            "A timer intermediate catch event"
          ],
          "rightAnswer":[
             "A throwing signal intermediate event"
@@ -166,7 +166,7 @@
       },
       {
          "type":"single",
-         "text":"Can you spot the combination of activity makers NOT allowed in BPMN?",
+         "text":"Can you spot the combination of activity markers NOT allowed in BPMN?",
          "answers":[
             "Multi instance task",
             "Loop Sub-Process",

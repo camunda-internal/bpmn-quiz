@@ -8187,7 +8187,7 @@ Intro.prototype.render = function(state) {
             h('a', {
               href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conqueringBPMN&src=typd',
           },
-              h('p','#conqueringBPMN.')),
+              h('p','#conqueringBPMN')),
         h('img.img-responsive', { src: 'http://placekitten.com/g/1025/400'})  
       ])
     );
