@@ -8187,7 +8187,7 @@ Intro.prototype.render = function(state) {
         h('p','Do you have what it takes to conquer the adventurous world of BPMN 2.0? Find out now and take this 5 min quiz. Share your results with your friends: '),
             h('a', {
               href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conqueringBPMN&src=typd',
-          },
+          },  
               h('p','#conqueringBPMN')),
         h('img.img-responsive', { src: 'http://placekitten.com/g/1025/400'})  
       ])
@@ -8305,7 +8305,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
@@ -8344,7 +8344,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
@@ -8380,7 +8380,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
@@ -8416,7 +8416,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
@@ -8452,7 +8452,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
