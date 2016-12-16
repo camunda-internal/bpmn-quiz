@@ -8305,7 +8305,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
@@ -8344,7 +8344,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
@@ -8380,7 +8380,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
@@ -8416,7 +8416,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
@@ -8452,7 +8452,7 @@ Results.prototype.render = function(state) {
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
                   'data-lang':'en' }
-              }, t('this should be a tweet button')),
+              }, t('tweet')),
               h('script', {
                 async: true,
                 src: 'https://platform.twitter.com/widgets.js',
