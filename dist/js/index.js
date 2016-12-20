@@ -8314,9 +8314,13 @@ Results.prototype.render = function(state) {
                 style: {
                   marginTop:'10'
                 }
-              })
-                
-          ])
+             }), 
+            // Google Analytics pageview
+              h('script', [
+                t("ga('set', 'page', '/Harmless_Fairy');"),
+                t("ga('send', 'pageview');")
+             ])
+           ])
         ); 
    } else if  ((rightAnswers / this.questionnaire.questions.length) < 0.57) {
     content =
@@ -8353,10 +8357,14 @@ Results.prototype.render = function(state) {
                 style: {
                   marginTop:'10'
                 }
-            })
-                
-          ])
-        );
+             }), 
+            // Google Analytics pageview
+              h('script', [
+                t("ga('set', 'page', '/Trooper');"),
+                t("ga('send', 'pageview');")
+             ])
+           ])
+        ); 
   } else if  ((rightAnswers / this.questionnaire.questions.length) < 0.71) {
     content =
           h('div.row', 
@@ -8389,10 +8397,14 @@ Results.prototype.render = function(state) {
                 style: {
                   marginTop:'10'
                 }
-            })
-                
-          ])
-        ); 
+             }), 
+            // Google Analytics pageview
+              h('script', [
+                t("ga('set', 'page', '/Champion);"),
+                t("ga('send', 'pageview');")
+             ])
+           ])
+        );  
   }  else if  ((rightAnswers / this.questionnaire.questions.length) < 0.86) {
     content =
           h('div.row', 
@@ -8425,10 +8437,14 @@ Results.prototype.render = function(state) {
                 style: {
                   marginTop:'10'
                 }
-            })
-                
-          ])
-        );
+             }), 
+            // Google Analytics pageview
+              h('script', [
+                t("ga('set', 'page', '/Hero');"),
+                t("ga('send', 'pageview');")
+             ])
+           ])
+        ); 
   } else {
     content =
           h('div.row', 
@@ -8461,9 +8477,13 @@ Results.prototype.render = function(state) {
                 style: {
                   marginTop:'10'
                 }
-            })
-                
-          ])
+             }), 
+            // Google Analytics pageview
+              h('script', [
+                t("ga('set', 'page', '/Legendary_Conqueror');"),
+                t("ga('send', 'pageview');")
+             ])
+           ])
         ); 
 
   }
