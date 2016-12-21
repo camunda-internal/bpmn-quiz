@@ -8193,9 +8193,12 @@ var that = this;
         }},
       [ h('h2', this.questionnaire.questionnaireJson.name),
         h('p', this.questionnaire.questionnaireJson.intro),
-        h('p','Do you have what it takes to conquer the adventurous world of BPMN 2.0?'),
-          h('br'),
-          h('p','Find out now and take this 5 min quiz. Share your results with your friends: '),
+        h('p',{
+              style:{
+                'margin': '0px'
+            }},'Do you have what it takes to conquer the adventurous world of BPMN 2.0?'),
+          h('\A'),
+           h('p','Find out now and take this 5 min quiz. Share your results with your friends: '),
             h('a', {
               href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conqueringBPMN&src=typd',
           }, h('p','#conqueringBPMN')),
