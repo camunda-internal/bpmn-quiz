@@ -7398,8 +7398,7 @@ BpmnQuestionnaire.prototype.render = function(state) {
 
       // Render intro
       content = [
-        new Intro(this).render(state),
-        new Controls(this).render(state)
+        new Intro(this).render(state)
       ];
       break;
     case 'questions':
@@ -8178,16 +8177,42 @@ function Intro(questionnaire) {
  */
 Intro.prototype.render = function(state) {
 
+var that = this;
+    // Handler functions of Controls
+  function start() {
+    that.questionnaire.update({
+      'view': 'questions'
+    });
+  };
   // Rendering
   var html =
     h('div.bpmn-questionnaire-intro.row', 
-      h('div.col-sm-12', [
-        h('h2', this.questionnaire.questionnaireJson.name),
+      h('div.col-sm-12.text-center', {
+        style: {
+          'top':'-80'
+        }},
+      [ h('h2', this.questionnaire.questionnaireJson.name),
         h('p', this.questionnaire.questionnaireJson.intro),
-        h('p','Do you have what it takes to conquer the adventurous world of BPMN 2.0? Find out now and take this 5 min quiz. Share your results with your friends: '),
+        h('p','Do you have what it takes to conquer the adventurous world of BPMN 2.0?'),
+          h('br'),
+          h('p','Find out now and take this 5 min quiz. Share your results with your friends: '),
             h('a', {
               href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conqueringBPMN&src=typd',
           }, h('p','#conqueringBPMN')),
+
+     // Controls        
+          h('button.btn.btn-primary.center-block', {
+          onclick: start,
+          style:{
+            'margin-bottom': '15px',
+            'width': '126px'
+          }
+      }, h('p',{
+        style:{
+            'width': '100px',
+            'height': '12px'
+        }
+      },'Start')),
         h('img.img-responsive', { src: 'http://placekitten.com/g/1025/400'})  
       ])
     );
@@ -8277,8 +8302,11 @@ Results.prototype.render = function(state) {
   });
 
 
-// End result of whole Questionnaire 
+// End result cases
   var content;
+
+/******************** Case if right answers are *******************************
+********************* less than 49% HARMLESS FAIRY ****************************/
   if ((rightAnswers / this.questionnaire.questions.length) < 0.49){
     content =
           h('div.row', 
@@ -8291,10 +8319,14 @@ Results.prototype.render = function(state) {
                 this.questionnaire.questions.length +
                  ' right!',
               t(' But who could be angry at that face. Good news: there is plenty of '), 
+
+  // link to training Material 
               h('a', {
                 href: 'https://camunda.com/bpmn/training/'
               }, t('training material')),
               h('br'),
+              
+  // Tweet Button 
               h('a.twitter-share-button', {
                href: 'https://twitter.com/share',
                 attributes: {
@@ -8310,18 +8342,22 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
+
+   // Img of Harmless Fairy
               h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
                 style: {
                   marginTop:'10'
                 }
              }), 
-            // Google Analytics pageview
+  // Google Analytics pageview
               h('script', [
                 t("ga('set', 'page', '/Harmless_Fairy');"),
                 t("ga('send', 'pageview');")
              ])
            ])
-        ); 
+        );
+/******************** Case if right answers are *******************************
+********************* less than 57% TROOPER  *********************************/         
    } else if  ((rightAnswers / this.questionnaire.questions.length) < 0.57) {
     content =
           h('div.row', 
@@ -8334,10 +8370,14 @@ Results.prototype.render = function(state) {
                 this.questionnaire.questions.length +
                  ' right!',
               t(' Put the sandwich down, buckle your seatbelt and start brushing up on your BPMN 2.0 knowledge. To conquer the world of BPMN you need to '),
+
+  // link to training Material
               h('a', {
                 href: 'https://camunda.com/bpmn/training/'
               }, t('train.')),
               h('br'),
+  
+  // Tweet Button 
               h('a.twitter-share-button', {
                href: 'https://twitter.com/share',
                 attributes: {
@@ -8353,18 +8393,23 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
+
+   // Img of Trooper
               h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
                 style: {
                   marginTop:'10'
                 }
              }), 
-            // Google Analytics pageview
+
+  // Google Analytics pageview
               h('script', [
                 t("ga('set', 'page', '/Trooper');"),
                 t("ga('send', 'pageview');")
              ])
            ])
         ); 
+/******************** Case if right answers are *******************************
+********************* less than 71% CHAMPION   *******************************/
   } else if  ((rightAnswers / this.questionnaire.questions.length) < 0.71) {
     content =
           h('div.row', 
@@ -8378,6 +8423,8 @@ Results.prototype.render = function(state) {
                  ' right!',
               t(' No time for losers, because you know your BPMN 2.0 pretty damn well.'),
               h('br'),
+
+  // Tweet Button 
               h('a.twitter-share-button', {
                href: 'https://twitter.com/share',
                 attributes: {
@@ -8393,18 +8440,23 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
+
+   // Img of Trooper
               h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
                 style: {
                   marginTop:'10'
                 }
              }), 
-            // Google Analytics pageview
+
+  // Google Analytics pageview
               h('script', [
                 t("ga('set', 'page', '/Champion);"),
                 t("ga('send', 'pageview');")
              ])
            ])
-        );  
+        );
+/******************** Case if right answers are *******************************
+*********************     less than 86% HERO    *******************************/  
   }  else if  ((rightAnswers / this.questionnaire.questions.length) < 0.86) {
     content =
           h('div.row', 
@@ -8418,6 +8470,8 @@ Results.prototype.render = function(state) {
                  ' right!',
               t(' You managed to master the adventures of BPMN 2.0, while saving a princess, as if it was just a piece of cake!'),
               h('br'),
+
+  // Tweet Button 
               h('a.twitter-share-button', {
                href: 'https://twitter.com/share',
                 attributes: {
@@ -8433,18 +8487,23 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
+
+   // Img of Hero
               h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
                 style: {
                   marginTop:'10'
                 }
              }), 
-            // Google Analytics pageview
+
+    // Google Analytics pageview
               h('script', [
                 t("ga('set', 'page', '/Hero');"),
                 t("ga('send', 'pageview');")
              ])
            ])
-        ); 
+        );
+/******************** Case if right answers are *******************************
+****************** more than 86% LEGENDARY CONQUEROR **************************/  
   } else {
     content =
           h('div.row', 
@@ -8458,6 +8517,8 @@ Results.prototype.render = function(state) {
                  ' right!',
               t(' Not many people are conquerors, even fewer are legends, you are both! BPMN 2.0 doesn’t control you, you control it.'),
               h('br'),
+
+  // Tweet Button 
               h('a.twitter-share-button', {
                href: 'https://twitter.com/share',
                 attributes: {
@@ -8473,12 +8534,15 @@ Results.prototype.render = function(state) {
                 src: 'https://platform.twitter.com/widgets.js',
                 charset: 'utf-8'
                 }),
+
+   // Img of Legendary Conqueror
               h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
                 style: {
                   marginTop:'10'
                 }
              }), 
-            // Google Analytics pageview
+
+    // Google Analytics pageview
               h('script', [
                 t("ga('set', 'page', '/Legendary_Conqueror');"),
                 t("ga('send', 'pageview');")
