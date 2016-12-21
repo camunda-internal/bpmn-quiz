@@ -8189,7 +8189,7 @@ var that = this;
     h('div.bpmn-questionnaire-intro.row', 
       h('div.col-sm-12.text-center', {
         style: {
-          'top':'-80'
+          'top':'-50'
         }},
       [ h('h2', this.questionnaire.questionnaireJson.name),
         h('p', this.questionnaire.questionnaireJson.intro),
