@@ -8346,7 +8346,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':rightAnswers, 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8397,7 +8397,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8444,7 +8444,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8491,7 +8491,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8538,7 +8538,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
