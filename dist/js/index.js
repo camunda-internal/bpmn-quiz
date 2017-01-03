@@ -8318,7 +8318,7 @@ Results.prototype.render = function(state) {
 /** 
 * less than 49% HARMLESS FAIRY 
 */
-  if ((rightAnswers / this.questionnaire.questions.length) < 0.49){
+  if ((rightAnswers / this.questionnaire.questions.length) < 0.30){
     content =
           h('div.row', 
             h('div.col-sm-12.text-center', {
@@ -8347,7 +8347,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/28mzlejxcV', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/CItYd1eWit', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
