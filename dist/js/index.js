@@ -8208,15 +8208,22 @@ var that = this;
           onclick: start,
           style:{
             'margin-bottom': '15px',
-            'width': '126px'
+            'width': '126px',
+            'padding-bottom': '25'
           }
       }, h('p',{
         style:{
             'width': '100px',
-            'height': '12px'
+            'height': '0px',
+            'font-size': '20px'
         }
       },'Start')),
-        h('img.img-responsive', { src: 'http://placekitten.com/g/1025/400'})  
+
+     // intro image     
+        h('img.img-responsive',{ src: '../resources/home-intro_720.jpg',
+         style:{
+            margin:'15px auto 0'}
+          })  
       ])
     );
 
@@ -8313,7 +8320,12 @@ Results.prototype.render = function(state) {
   if ((rightAnswers / this.questionnaire.questions.length) < 0.49){
     content =
           h('div.row', 
-            h('div.col-sm-12.text-center', [
+            h('div.col-sm-12.text-center', {
+              style: {
+                'top':'-50'
+              }
+            },
+            [
               h('h2', t('Harmless Fairy')),
               t('I don’t want to lie, we have seen better. '),
               t(' You answered ') +
@@ -8334,7 +8346,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'', 
+                  'data-text':rightAnswers, 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8347,9 +8359,9 @@ Results.prototype.render = function(state) {
                 }),
 
    // Img of Harmless Fairy
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+              h('img.img-responsive', { src: '../resources/5-big_720.jpg',
                 style: {
-                  marginTop:'10'
+                  margin:'15px auto 0'
                 }
              }), 
   // Google Analytics pageview
@@ -8398,9 +8410,9 @@ Results.prototype.render = function(state) {
                 }),
 
    // Img of Trooper
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+              h('img.img-responsive', { src: '../resources/4-big_720.jpg',
                 style: {
-                  marginTop:'10'
+                  margin:'15px auto 0'
                 }
              }), 
 
@@ -8444,10 +8456,10 @@ Results.prototype.render = function(state) {
                 charset: 'utf-8'
                 }),
 
-   // Img of Trooper
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+   // Img of Champion
+              h('img.img-responsive', { src: '../resources/3-big_720.jpg',
                 style: {
-                  marginTop:'10'
+                  margin:'15px auto 0'
                 }
              }), 
 
@@ -8492,9 +8504,9 @@ Results.prototype.render = function(state) {
                 }),
 
    // Img of Hero
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+              h('img.img-responsive', { src: '../resources/2-big_720.jpg',
                 style: {
-                  marginTop:'10'
+                  margin:'15px auto 0'
                 }
              }), 
 
@@ -8539,9 +8551,9 @@ Results.prototype.render = function(state) {
                 }),
 
    // Img of Legendary Conqueror
-              h('img.img-responsive', { src: 'http://placekitten.com/g/1025/600',
+              h('img.img-responsive', { src: '../resources/1-big_720.jpg',
                 style: {
-                  marginTop:'10'
+                  margin:'15px auto 0'
                 }
              }), 
 
