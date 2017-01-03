@@ -8315,8 +8315,9 @@ Results.prototype.render = function(state) {
 // End result cases
   var content;
 
-/******************** Case if right answers are *******************************
-********************* less than 49% HARMLESS FAIRY ****************************/
+/** 
+* less than 49% HARMLESS FAIRY 
+*/
   if ((rightAnswers / this.questionnaire.questions.length) < 0.49){
     content =
           h('div.row', 
@@ -8371,8 +8372,9 @@ Results.prototype.render = function(state) {
              ])
            ])
         );
-/******************** Case if right answers are *******************************
-********************* less than 57% TROOPER  *********************************/         
+/**
+* less than 57% TROOPER  
+*/         
    } else if  ((rightAnswers / this.questionnaire.questions.length) < 0.57) {
     content =
           h('div.row', 
@@ -8423,8 +8425,9 @@ Results.prototype.render = function(state) {
              ])
            ])
         ); 
-/******************** Case if right answers are *******************************
-********************* less than 71% CHAMPION   *******************************/
+/** 
+*less than 71% CHAMPION   
+*/
   } else if  ((rightAnswers / this.questionnaire.questions.length) < 0.71) {
     content =
           h('div.row', 
@@ -8470,8 +8473,9 @@ Results.prototype.render = function(state) {
              ])
            ])
         );
-/******************** Case if right answers are *******************************
-*********************     less than 86% HERO    *******************************/  
+/**
+* less than 86% HERO   
+*/  
   }  else if  ((rightAnswers / this.questionnaire.questions.length) < 0.86) {
     content =
           h('div.row', 
@@ -8517,8 +8521,9 @@ Results.prototype.render = function(state) {
              ])
            ])
         );
-/******************** Case if right answers are *******************************
-****************** more than 86% LEGENDARY CONQUEROR **************************/  
+/**
+* more than 86% LEGENDARY CONQUEROR 
+*/  
   } else {
     content =
           h('div.row', 
