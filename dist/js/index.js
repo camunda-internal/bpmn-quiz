@@ -8347,7 +8347,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/CItYd1eWit', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/UmNitP6fPP', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8399,7 +8399,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/LVrrcDJ2Sz', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/g3SVghDSDi', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8447,7 +8447,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/erbNUWzyMs', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/aTfJNECEoT', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8495,7 +8495,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/gKYegxfb0H', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/DcQgH3y86m', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
@@ -8543,7 +8543,7 @@ Results.prototype.render = function(state) {
                href: 'https://twitter.com/share',
                 attributes: {
                   'data-size':'large', 
-                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/S926Y5cL4q', 
+                  'data-text':'I scored ' + rightAnswers + ' out of ' + this.questionnaire.questions.length + ' correct answers - pic.twitter.com/ZLLdiNb9OV', 
                   'data-via':'camundaBPM',
                   'data-hashtags':'conqueringBPMN',
                   'data-related':'camundaBPM,bpmn_io',
