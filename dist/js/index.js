@@ -8577,11 +8577,6 @@ Results.prototype.render = function(state) {
     h('div.bpmn-questionnaire-results.row',
       h('div.col-md-12', [
         content
-        /*alert('Get a free BPMN poster', {
-          style: {
-            'font-size':'40px'
-          }
-        })*/
       ])
     );
 
