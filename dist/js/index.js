@@ -8201,7 +8201,7 @@ var that = this;
            h('p','Find out now and take this 5 min quiz. Share your results with your friends: '),
             h('a', {
               href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conqueringBPMN&src=typd',
-          }, h('p','#conqueringBPMN')),
+          }, h('p','#conquerBPMN')),
 
      // Controls        
           h('button.btn.btn-primary.center-block', {
@@ -8331,9 +8331,9 @@ Results.prototype.render = function(state) {
               t('I don’t want to lie, we have seen better. '),
               t(' You answered ') +
                 rightAnswers +
-              t(' questions of total ') +
+              t(' out of ') +
                 this.questionnaire.questions.length +
-                 ' right!',
+                 ' questions right!',
               t(' But who could be angry at that face. Good news: there is plenty of '), 
 
   // link to training Material 
@@ -8383,9 +8383,9 @@ Results.prototype.render = function(state) {
               t('Listen up Trooper! '),
               t(' You answered ') +
                 rightAnswers +
-              t(' questions of total ') +
+              t(' out of ') +
                 this.questionnaire.questions.length +
-                 ' right!',
+                 ' questions right!',
               t(' Put the sandwich down, buckle your seatbelt and start brushing up on your BPMN 2.0 knowledge. To conquer the world of BPMN you need to '),
 
   // link to training Material
@@ -8436,9 +8436,9 @@ Results.prototype.render = function(state) {
               t('You are the Champion, you are the Champion... '),
               t(' You answered ') +
                 rightAnswers +
-              t(' questions of total ') +
+              t(' out of ') +
                 this.questionnaire.questions.length +
-                 ' right!',
+                 ' questions right!',
               t(' No time for losers, because you know your BPMN 2.0 pretty damn well.'),
               h('br'),
 
@@ -8484,9 +8484,9 @@ Results.prototype.render = function(state) {
               t('Come to my savior my hero! '),
               t(' You answered ') +
                 rightAnswers +
-              t(' questions of total ') +
+              t(' out of ') +
                 this.questionnaire.questions.length +
-                 ' right!',
+                 ' questions right!',
               t(' You managed to master the adventures of BPMN 2.0, while saving a princess, as if it was just a piece of cake!'),
               h('br'),
 
@@ -8532,9 +8532,9 @@ Results.prototype.render = function(state) {
               t('Holy Gateway! You did it! '),
               t(' You answered ') +
                 rightAnswers +
-              t(' questions of total ') +
+              t(' out of ') +
                 this.questionnaire.questions.length +
-                 ' right!',
+                 ' questions right!',
               t(' Not many people are conquerors, even fewer are legends, you are both! BPMN 2.0 doesn’t control you, you control it.'),
               h('br'),
 
