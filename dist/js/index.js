@@ -8200,7 +8200,7 @@ var that = this;
           h('\A'),
            h('p','Find out now and take this 5 min quiz. Share your results with your friends: '),
             h('a', {
-              href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conqueringBPMN&src=typd',
+              href: 'https://twitter.com/search?f=tweets&vertical=default&q=%23conquerBPMN&src=typd',
           }, h('p','#conquerBPMN')),
 
      // Controls        
